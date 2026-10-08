@@ -8,3 +8,15 @@ data/
 
 .DS_Store
 ._*
+
+# Local backup/intermediate scripts
+*_backup.py
+*_before_violation.py
+
+# Local intermediate result logs
+results/baseline_results.txt
+results/risk_analysis_results.txt
+
+# Local README backup
+README_TimingPredict_original.md
+data
