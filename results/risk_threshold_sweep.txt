@@ -1,0 +1,56 @@
+
+===== jpeg_encoder =====
+Total valid endpoint samples: 17680
+threshold=0.00 ns | flagged=8010 | flag_rate=45.31% | TP=5245 | FP=2765 | FN=174 | TN=9496 | precision=65.48% | recall=96.79% | F1=0.7811
+threshold=0.25 ns | flagged=8032 | flag_rate=45.43% | TP=5250 | FP=2782 | FN=169 | TN=9479 | precision=65.36% | recall=96.88% | F1=0.7806
+threshold=0.50 ns | flagged=8053 | flag_rate=45.55% | TP=5254 | FP=2799 | FN=165 | TN=9462 | precision=65.24% | recall=96.96% | F1=0.7800
+threshold=1.00 ns | flagged=8105 | flag_rate=45.84% | TP=5260 | FP=2845 | FN=159 | TN=9416 | precision=64.90% | recall=97.07% | F1=0.7779
+threshold=2.00 ns | flagged=8176 | flag_rate=46.24% | TP=5275 | FP=2901 | FN=144 | TN=9360 | precision=64.52% | recall=97.34% | F1=0.7760
+
+===== usbf_device =====
+Total valid endpoint samples: 16402
+threshold=0.00 ns | flagged=418 | flag_rate=2.55% | TP=254 | FP=164 | FN=69 | TN=15915 | precision=60.77% | recall=78.64% | F1=0.6856
+threshold=0.25 ns | flagged=554 | flag_rate=3.38% | TP=256 | FP=298 | FN=67 | TN=15781 | precision=46.21% | recall=79.26% | F1=0.5838
+threshold=0.50 ns | flagged=663 | flag_rate=4.04% | TP=258 | FP=405 | FN=65 | TN=15674 | precision=38.91% | recall=79.88% | F1=0.5233
+threshold=1.00 ns | flagged=846 | flag_rate=5.16% | TP=291 | FP=555 | FN=32 | TN=15524 | precision=34.40% | recall=90.09% | F1=0.4979
+threshold=2.00 ns | flagged=987 | flag_rate=6.02% | TP=322 | FP=665 | FN=1 | TN=15414 | precision=32.62% | recall=99.69% | F1=0.4916
+
+===== aes192 =====
+Total valid endpoint samples: 32384
+threshold=0.00 ns | flagged=8803 | flag_rate=27.18% | TP=5462 | FP=3341 | FN=284 | TN=23297 | precision=62.05% | recall=95.06% | F1=0.7508
+threshold=0.25 ns | flagged=9380 | flag_rate=28.96% | TP=5551 | FP=3829 | FN=195 | TN=22809 | precision=59.18% | recall=96.61% | F1=0.7340
+threshold=0.50 ns | flagged=9978 | flag_rate=30.81% | TP=5592 | FP=4386 | FN=154 | TN=22252 | precision=56.04% | recall=97.32% | F1=0.7113
+threshold=1.00 ns | flagged=11245 | flag_rate=34.72% | TP=5637 | FP=5608 | FN=109 | TN=21030 | precision=50.13% | recall=98.10% | F1=0.6635
+threshold=2.00 ns | flagged=14277 | flag_rate=44.09% | TP=5696 | FP=8581 | FN=50 | TN=18057 | precision=39.90% | recall=99.13% | F1=0.5689
+
+===== xtea =====
+Total valid endpoint samples: 1334
+threshold=0.00 ns | flagged=451 | flag_rate=33.81% | TP=366 | FP=85 | FN=35 | TN=848 | precision=81.15% | recall=91.27% | F1=0.8592
+threshold=0.25 ns | flagged=585 | flag_rate=43.85% | TP=383 | FP=202 | FN=18 | TN=731 | precision=65.47% | recall=95.51% | F1=0.7769
+threshold=0.50 ns | flagged=693 | flag_rate=51.95% | TP=383 | FP=310 | FN=18 | TN=623 | precision=55.27% | recall=95.51% | F1=0.7002
+threshold=1.00 ns | flagged=718 | flag_rate=53.82% | TP=383 | FP=335 | FN=18 | TN=598 | precision=53.34% | recall=95.51% | F1=0.6845
+threshold=2.00 ns | flagged=731 | flag_rate=54.80% | TP=386 | FP=345 | FN=15 | TN=588 | precision=52.80% | recall=96.26% | F1=0.6820
+
+===== spm =====
+Total valid endpoint samples: 388
+threshold=0.00 ns | flagged=133 | flag_rate=34.28% | TP=132 | FP=1 | FN=28 | TN=227 | precision=99.25% | recall=82.50% | F1=0.9010
+threshold=0.25 ns | flagged=194 | flag_rate=50.00% | TP=160 | FP=34 | FN=0 | TN=194 | precision=82.47% | recall=100.00% | F1=0.9040
+threshold=0.50 ns | flagged=194 | flag_rate=50.00% | TP=160 | FP=34 | FN=0 | TN=194 | precision=82.47% | recall=100.00% | F1=0.9040
+threshold=1.00 ns | flagged=194 | flag_rate=50.00% | TP=160 | FP=34 | FN=0 | TN=194 | precision=82.47% | recall=100.00% | F1=0.9040
+threshold=2.00 ns | flagged=194 | flag_rate=50.00% | TP=160 | FP=34 | FN=0 | TN=194 | precision=82.47% | recall=100.00% | F1=0.9040
+
+===== y_huff =====
+Total valid endpoint samples: 9564
+threshold=0.00 ns | flagged=108 | flag_rate=1.13% | TP=94 | FP=14 | FN=32 | TN=9424 | precision=87.04% | recall=74.60% | F1=0.8034
+threshold=0.25 ns | flagged=148 | flag_rate=1.55% | TP=106 | FP=42 | FN=20 | TN=9396 | precision=71.62% | recall=84.13% | F1=0.7737
+threshold=0.50 ns | flagged=198 | flag_rate=2.07% | TP=114 | FP=84 | FN=12 | TN=9354 | precision=57.58% | recall=90.48% | F1=0.7037
+threshold=1.00 ns | flagged=412 | flag_rate=4.31% | TP=122 | FP=290 | FN=4 | TN=9148 | precision=29.61% | recall=96.83% | F1=0.4535
+threshold=2.00 ns | flagged=2383 | flag_rate=24.92% | TP=124 | FP=2259 | FN=2 | TN=7179 | precision=5.20% | recall=98.41% | F1=0.0988
+
+===== synth_ram =====
+Total valid endpoint samples: 8448
+threshold=0.00 ns | flagged=64 | flag_rate=0.76% | TP=64 | FP=0 | FN=0 | TN=8384 | precision=100.00% | recall=100.00% | F1=1.0000
+threshold=0.25 ns | flagged=64 | flag_rate=0.76% | TP=64 | FP=0 | FN=0 | TN=8384 | precision=100.00% | recall=100.00% | F1=1.0000
+threshold=0.50 ns | flagged=64 | flag_rate=0.76% | TP=64 | FP=0 | FN=0 | TN=8384 | precision=100.00% | recall=100.00% | F1=1.0000
+threshold=1.00 ns | flagged=64 | flag_rate=0.76% | TP=64 | FP=0 | FN=0 | TN=8384 | precision=100.00% | recall=100.00% | F1=1.0000
+threshold=2.00 ns | flagged=64 | flag_rate=0.76% | TP=64 | FP=0 | FN=0 | TN=8384 | precision=100.00% | recall=100.00% | F1=1.0000

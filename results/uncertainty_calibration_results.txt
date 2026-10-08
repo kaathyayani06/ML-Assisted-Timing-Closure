@@ -1,0 +1,79 @@
+Loading pretrained TimingPredict model...
+Model loaded successfully.
+
+===== Calibration =====
+Calibrating on: blabla
+Valid samples: 222272
+Mean error: 1.3207536935806274
+Calibrating on: usb_cdc_core
+Valid samples: 29624
+Mean error: 0.2072705328464508
+Calibrating on: BM64
+Valid samples: 153832
+Mean error: 0.5382055640220642
+Calibrating on: salsa20
+Valid samples: 313944
+Mean error: 0.998073399066925
+
+Total calibration samples: 719672
+95th percentile error threshold: 4.3856940269470215
+
+===== Test Interval Coverage =====
+
+Testing on: jpeg_encoder
+Valid samples: 952864
+Covered samples: 828572
+Interval coverage: 86.95595593914767
+Mean absolute error: 1.8449397087097168
+Median absolute error: 0.9138031005859375
+Maximum absolute error: 188.48745727539062
+
+Testing on: usbf_device
+Valid samples: 265380
+Covered samples: 264970
+Interval coverage: 99.84550455949959
+Mean absolute error: 0.8201167583465576
+Median absolute error: 0.5784311294555664
+Maximum absolute error: 5.652370452880859
+
+Testing on: aes192
+Valid samples: 936844
+Covered samples: 792344
+Interval coverage: 84.575873891491
+Mean absolute error: 2.0958938598632812
+Median absolute error: 1.0022778511047363
+Maximum absolute error: 19.04693603515625
+
+Testing on: xtea
+Valid samples: 40852
+Covered samples: 39604
+Interval coverage: 96.9450700088123
+Mean absolute error: 0.7137764692306519
+Median absolute error: 0.251478910446167
+Maximum absolute error: 48.83417510986328
+
+Testing on: spm
+Valid samples: 4484
+Covered samples: 4484
+Interval coverage: 100.0
+Mean absolute error: 0.30973365902900696
+Median absolute error: 0.15555024147033691
+Maximum absolute error: 2.460233688354492
+
+Testing on: y_huff
+Valid samples: 192864
+Covered samples: 191932
+Interval coverage: 99.51675792268126
+Mean absolute error: 0.46903714537620544
+Median absolute error: 0.27861714363098145
+Maximum absolute error: 8.330598831176758
+
+Testing on: synth_ram
+Valid samples: 103640
+Covered samples: 92195
+Interval coverage: 88.95696642223079
+Mean absolute error: 1.577441692352295
+Median absolute error: 0.8190402984619141
+Maximum absolute error: 9.00777816772461
+
+Calibration experiment completed successfully.
